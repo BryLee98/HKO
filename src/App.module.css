@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 1400px;
+  width: 100%;
+  padding: 16px;
+  align-items: stretch;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/hongKong.jpg);
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.forecastWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: stretch;
+  justify-content: space-between;
+}

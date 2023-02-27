@@ -1,0 +1,80 @@
+.forecast {
+    font-family: 'Inter', 'Arial', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 24px;
+    gap: 32px;
+
+    background: rgba(18, 48, 78, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+}
+
+.mainWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+
+    flex: 1;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tempIcon {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    flex: 1;
+}
+
+.tempIcon>img {
+    width: 128px;
+    height: 128px
+}
+
+.temperatures {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.moreDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.humidity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px
+}
+
+.translucent {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.isFull {
+    width: 320px;
+}
+
+.isFull .tempIcon {
+    flex-direction: row;
+}
